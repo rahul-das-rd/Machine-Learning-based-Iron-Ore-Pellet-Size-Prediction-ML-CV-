@@ -1,0 +1,21 @@
+All the runnable Python scripts are available in Folder 'PYTHON CODES' with all the extracted csv files necessary for the execution of Time Series Analysis code.
+
+****************************************************************************
+
+Necessary Python Libraries:
+
+Numpy, Pandas, Scikit-learn, OpenCV, Matplotlib.pyplot, Prophet, StatsModels, Seaborn, CSV, Tkinter
+
+installation command to be pasted in command prompt terminal(not code area):
+pip install numpy pandas scikit-learn opencv-python matplotlib prophet statsmodels seaborn tk
+
+****************************************************************************
+
+Code 1: IP_CD_EXT.py
+Python code for Image Pre-processing, Circle detection and Extraction of data to .csv files
+
+Code 2: TSA12.py TSA17.py with same functionalities contain the Machine Learning based Data Analysis and Time Series Prediction codes (Require csv files in same folder as .py file). All ML models have been fitted, predicted in one single code
+
+Code 3: prophet_analysis2.py focuses on prophet analysis and forecasting only. Will work with big amounts of data.
+
+Code 4: KDE.py Using Kernel Density Estimation (Non-ML approach) predicts size distribution. Could be used for taking insights and applying it with ML together in TSA17/TSA12.py
